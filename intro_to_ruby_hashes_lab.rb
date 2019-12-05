@@ -29,5 +29,5 @@ def update_counting_hash(hash, key)
   else
       hash["oranges"] = 1
   end
-  
+  return hash + key
 end
